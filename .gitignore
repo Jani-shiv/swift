@@ -1,10 +1,15 @@
 # Dependencies
-**/node_modules/
+/node_modules
+/.pnp
+.pnp.*
 
-# Next.js
-**/.next/
-**/out/
-**/build/
+# Next.js & Build
+/.next/
+/out/
+/build/
+
+# Reports & Internal Specs
+deep-research-report*.md
 
 # Logs & Misc
 *.log
@@ -12,3 +17,5 @@
 *.pem
 .env*
 .vercel
+*.tsbuildinfo
+next-env.d.ts
